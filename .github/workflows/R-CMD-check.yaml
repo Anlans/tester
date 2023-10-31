@@ -16,6 +16,7 @@ jobs:
 
     strategy:
       fail-fast: false
+      warning_are_errors: true
       matrix:
         config:
           - {os: macos-latest,   r: 'release'}
