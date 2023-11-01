@@ -14,8 +14,12 @@ URL: https://github.com/Anlans/tester
 BugReports: https://github.com/Anlans/tester/issues
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat (>= 3.0.0)
 VignetteBuilder: knitr
 Imports: 
     dplyr,
     tibble
+Config/testthat/edition: 3
+Depends: 
+    R (>= 2.10)
